@@ -7,6 +7,18 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <header class="site-header">
+            <nav class="navbar">
+                <a href="#" class="logo">Anthony Mejia</a>
+
+                <div class="nav-links">
+                    <a href="#projects">Projects</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </header>
+
         <main class="page">
             <section class="hero">
                 <p class="eyebrow">Personal Showcase</p>
@@ -17,7 +29,7 @@
                 <a href="#projects" class="button">View My Projects</a>
             </section>
 
-            <section class="letter">
+            <section id="about" class="letter">
                 <h2>A small letter</h2>
                 <p>
                     This site ismy digital starting poing - a place to collect my work,
@@ -30,22 +42,34 @@
 
                 <div class="project-grid">
                     <article class="card">
-                        <h3>VR Hover Racing Game</h3>
-                        <p>
-                            A Unity VR racing project focused on hover movement, lap tracking, and immersive gameplay.
-                        </p>
+                        <div class="card-content">
+                            <p class="card-tag">Unity / VR</p>
+                            <h3>VR Hover Racing Game</h3>
+                            <p>
+                                A Unity VR racing project focused on hover movement, lap tracking, and immersive gameplay.
+                            </p>
+                            <a href="#" class="card-link">View Project</a>
+                        </div>
                     </article>
                     <article class="card">
-                        <h3>Cybersecurity Labs</h3>
-                        <p>
-                            Hands on lab with Juice Shop, Splink, Zeek, Sysom, and C2 detection workflow.
-                        </p>
+                        <div class="card-content">
+                            <p class="card-tag">Cybersecurity</p>
+                            <h3>Security & Detection Labs</h3>
+                            <p>
+                                Hands on lab with Juice Shop, Splunk, Zeek, Sysmon, and C2 detection workflow, detection engineering, and log analysis.
+                            </p>
+                            <a href="#" class="card-link">View Project</a>
+                        </div>
                     </article>
                     <article class="card">
-                        <h3>Web Applications</h3>
-                        <p>
-                            Full-stack coursework and personal web projects using HTMl, CSS, JavaScript, React, and databases.
-                        </p>
+                        <div class="card-content">
+                            <p class="card-tag">Web Development</p>
+                            <h3>Full-stack Web Applications</h3>
+                            <p>
+                                Full-stack coursework and personal web projects using HTMl, CSS, JavaScript, React, and databases.
+                            </p>
+                            <a href="#" class="card-link">View Project</a>
+                        </div>
                     </article>
                 </div>
             </section>
