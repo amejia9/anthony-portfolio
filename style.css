@@ -168,3 +168,29 @@ h2 {
     font-weight: bold;
 }
 
+.contact {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    background: var(--color-surface);
+}
+
+.contact p {
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+.contact-links {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    margin-top: var(--spacing-md);
+}
+
+.contact-links a {
+    color: var(--color-text-accent);
+    font-weight: bold;
+    text-decoration: none;
+}
